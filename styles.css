@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+.container{
+	display:flex;
+	flex-direction:row;
+	gap:10px;
+	justify-content:space-between;
+	height:50vh;
+}
+img{
+	height:100%;
+	width:100%;
+	border-radius:20px;
+}
+#panel-1,#panel-2,#panel-3,#panel-4,#panel-5{
+	height:100%;
+	position:relative;
+	border-radius:20px;
+}
+.active{
+    width: 400%;
+}
+p{
+    position:absolute;
+	top:230px;
+	left:20px;
+	color:white;
+}
